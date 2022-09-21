@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+        <menuitem action="ir_model_fields_log_action"
+                  id="ir_model_fields_log_menu"
+                  name="Fields log settings"
+                  parent="mail.mail_menu_technical"
+                  groups="fields_log_dynamic.group_fields_log_settings"
+                  sequence="60"/>
+
+</odoo>

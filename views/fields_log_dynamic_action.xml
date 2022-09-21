@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+        <record id="ir_model_fields_log_action" model="ir.actions.act_window">
+            <field name="name">Fields log</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">ir.model.fields.log</field>
+            <field name="view_id" ref="fields_log_dynamic.ir_model_fields_log_tree_editable"/>
+        </record>
+
+
+</odoo>

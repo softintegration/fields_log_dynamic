@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_ir_model_fields_log_user,ir_model_fields_log_user,model_ir_model_fields_log,base.group_user,1,0,0,0
+access_ir_model_fields_log_manager,ir_model_fields_log_manager,model_ir_model_fields_log,fields_log_dynamic.group_fields_log_settings,1,1,1,1
+
