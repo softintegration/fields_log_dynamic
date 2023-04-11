@@ -14,4 +14,4 @@ class MailThread(models.AbstractModel):
         fields = super(MailThread, self)._get_tracked_fields()
         # here we have to add the dynamic log fields
         # note that we have to pass the self._name as argument to give the concerned model to the configurator
-        return self.env['ir.model.fields.log']._update_tracked_fields(self._name, fields)
+        return self.env['ir.model.fields.log'].sudo()._update_tracked_fields(self._name, fields)

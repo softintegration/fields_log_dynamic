@@ -2,7 +2,7 @@
 
 {
     'name': 'Fields log dynamic',
-    'version': '1.0.1',
+    'version': '1.0.1.1',
     'author':'Soft-integration',
     'category': 'Tools',
     'summary': 'Fields log dynamic',
